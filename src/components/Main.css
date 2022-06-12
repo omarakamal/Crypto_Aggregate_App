@@ -1,0 +1,17 @@
+.tableContainer{
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#myButton{
+    color:aqua
+}
+
+#negativeChange{
+    color:red;
+}
+
+#positiveChange{
+    color:green;
+}
