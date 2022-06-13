@@ -15,3 +15,31 @@
 #positiveChange{
     color:green;
 }
+
+#mainTable{
+height:80px;
+width:auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.tableContainer {
+    background-color: rgb(24, 26, 24);
+  }
+  
+
+#refreshButton{
+    margin-left:.5%;
+}
+
+#header{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: conic-gradient(#e7e7e7, #ffbeb1, #340077);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#searchBar{
+}
