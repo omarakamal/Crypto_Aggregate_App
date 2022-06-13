@@ -25,10 +25,11 @@ class Main extends Component {
     handleChange (e) {
       this.setState({searchTerm: e.target.value});
       console.log(this.state.searchTerm)
-      axios.get(`https://api.coingecko.com/api/v3/coins/${this.state.searchTerm}`)
-      .then(results=>{
+      // axios.get(`https://api.coingecko.com/api/v3/coins/${this.state.searchTerm}`)
+      // .then(results=>{
     
-      })
+      // })
+
 
     }
   
@@ -42,7 +43,8 @@ class Main extends Component {
       })
     }
   render() {
-    if(this.state.searchTerm !=""){
+ 
+    if(this.state.searchTerm =""){
       return (
         <div className='tableContainer'>
                 <h1 class="display-4 font-weight-bold mb-4" id="header">Crypto Coin Aggregate Site</h1>
@@ -96,6 +98,15 @@ class Main extends Component {
     )
     }
     else{
+      {this.state.coinsArray.filter(()=>{
+        if(this.state.searchTerm == ""){
+          console.log("everything")
+
+        }
+        else(this.state.coinsArray.id.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
+        console.log("1 or 2")
+      }
+        )}
       return(
         <div className='tableContainer'>
         <h1 class="display-4 font-weight-bold mb-4" id="header">Crypto Coin Aggregate Site</h1>
