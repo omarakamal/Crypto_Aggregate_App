@@ -127,7 +127,7 @@ class Main extends Component {
     <Table striped bordered hover variant="dark" id="mainTable">
 <thead>
   <tr>
-    <th>Icon</th>
+    <th>Icon </th>
     <th>Coin Name</th>
     <th>Coin Symbol</th>
     <th>price US Dollars</th>
